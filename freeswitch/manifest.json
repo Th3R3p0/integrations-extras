@@ -1,0 +1,29 @@
+{
+  "display_name": "FreeSWITCH",
+  "maintainer": "justin@justinmassey.com",
+  "manifest_version": "1.0.0",
+  "name": "freeswitch",
+  "metric_prefix": "freeswitch.",
+  "metric_to_check": "",
+  "creates_events": false,
+  "short_description": "",
+  "guid": "9f8374ee-3e0c-4d5b-8b56-d476a13cb554",
+  "support": "contrib",
+  "supported_os": [
+    "linux",
+    "mac_os",
+    "windows"
+  ],
+  "public_title": "Datadog-FreeSWITCH Integration",
+  "categories": [
+    ""
+  ],
+  "type": "check",
+  "is_public": false,
+  "integration_id": "freeswitch",
+  "assets": {
+    "dashboards": {},
+    "monitors": {},
+    "service_checks": "assets/service_checks.json"
+  }
+}

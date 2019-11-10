@@ -1,0 +1,9 @@
+init_config:
+
+instances:
+
+  - min_collection_interval: 5
+    host: 'localhost'
+    port: 8080
+    username: freeswitch
+    password: works

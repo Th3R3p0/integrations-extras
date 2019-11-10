@@ -1,0 +1,5 @@
+metric_name,metric_type,interval,unit_name,per_unit_name,description,orientation,integration,short_name
+FreeSWITCH.registration,gauge,,,,,,FreeSwitch,Registration
+FreeSWITCH.sessions,gauge,,,,,,FreeSwitch,Sessions
+FreeSWITCH.calls,gauge,,,,,,FreeSwitch,Calls
+FreeSWITCH.sofia.profile,gauge,,,,,,FreeSwitch,Profiles

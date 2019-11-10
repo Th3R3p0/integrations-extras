@@ -1,0 +1,11 @@
+[
+      {
+        "agent_version": "5.0.0",
+        "integration":"nginx",
+        "check": "FreeSWITCH.rpc.can_connect",
+        "statuses": ["ok", "critical", "unknown"],
+        "groups": [],
+        "name": "Can Connect",
+        "description": "Returns `CRITICAL` if the Agent is unable to connect to and collect metrics from the monitored FreeSWITCH instance. Returns `UNKNWOWN` if the Agent encounters an error which is not handled. Returns `OK` otherwise."
+    }
+]
